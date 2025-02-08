@@ -53397,7 +53397,7 @@ var w$ = ['mapContainer'],
           f = {
             concrete: yield h('./assets/textures/concrete.jpeg'),
             brick: yield h('./assets/textures/brick.jpg'),
-            glass: yield h('/assets/textures/glass.jpg'),
+            glass: yield h('./assets/textures/glass.jpg'),
           };
         e.elements.forEach((p) => {
           if (p.type === 'way' && p.geometry) {
